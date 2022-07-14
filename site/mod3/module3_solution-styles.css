@@ -1,5 +1,15 @@
-
 <style type="text/css">
-  h1{
-    color: blue;
-  }
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #6f7048;
+  font-family: Verdana;
+}
+
+#header-nav{
+  background-color: #b5b659;
+  border-radius: 0;
+  border: 0;
+}
+</style>
