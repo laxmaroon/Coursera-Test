@@ -1,15 +1,184 @@
-<style type="text/css">
-
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #6f7048;
-  font-family: Verdana;
+* {
+  box-sizing: border-box;
 }
-
+body{
+  font-size: 16px;
+  color: ;
+  background-color: #ffe0ad;
+  font-family: Verdana;
+  padding-bottom: 70px;
+}
+.box{
+     width: 100%;
+    overflow: none;
+    border: 1px solid black;
+  }
 #header-nav{
-  background-color: #b5b659;
+  background-color: #ffb4af;
   border-radius: 0;
   border: 0;
 }
-</style>
+.navbar-brand {
+  padding-top: 25px;
+  }
+.navbar-brand h1 {
+  font-family: Verdana;
+  color:  #8c4646;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .31;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #557c3e;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav a {
+  font-size: 1.2em;
+  font-family: verdana;
+}
+#nav-list{
+  background-color: #cddda9 ;
+}
+
+.container .text-center{
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 100%s;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+/*#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}*/
+.category-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #000;
+}
+.content {
+   overflow: hidden;
+    font-family: Verdana;
+    color:black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    font-size: 15px;
+    padding: 2%;
+    padding-top: 50px;
+}
+.content span{
+ top: 450px;
+  color: #926663;
+  font-size:.7em;
+}
+/*
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
+}*/
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+ .col-md-4
+ { float: left;
+  padding-right : 15px;
+}
+ .col-md-4 {
+    width: 33.33%;
+  }
+
+  .category-tile {
+    margin: 0 auto 15px;
+    height: 500px;
+   }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-sm-6, .col-sm-12
+ {
+  float: left;
+  padding-right : 15px;
+   }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-12{
+    width: 100%;
+  }
+   
+  .category-tile {
+    margin: 0 auto 15px;
+    height: 300px;
+   }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ .col-xs-12
+  { float: left;
+  padding-right : 15px;
+}
+ .col-xs-12 {
+    width: 100%;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  .category-tile {
+    width: 300px;
+    margin: 0 auto 15px;
+    height: 500px;
+   }

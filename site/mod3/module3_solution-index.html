@@ -7,19 +7,92 @@
 
     <title>Module-3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/module3_solution-styles.css">
+    <link rel="stylesheet" href="module3_solution-styles.css">
   </head>
 <body>
+
     <header>
       <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-    
+       <div class="container-fluid">
 
+      <div class="navbar-header">
 
+        <div class="navbar-brand">
+        <a href="module3_solution-index.html"> <h1>Food, LLC</h1></a>
+        </div>
 
-      
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+       <div id="collapsable-nav" class="collapse navbar-collapse" role="navigation">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li role="separator" class="divider">
+              <a href="#chicken">
+               <!-- <span class="glyphicon glyphicon-cutlery"></span>-->
+               <span class="sr-only">(current)</span>
+               <br> Chicken</a>
+               <hr class="visible-xs">
+            </li>
+            <li role="separator" class="divider">
+              <a href="#beef">
+                <!--<span class="glyphicon glyphicon-info-sign"></span>-->
+                <span class="sr-only">(current)</span>
+                <br> Beef</a>
+                <hr class="visible-xs">
+            </li>
+            <li role="separator" class="divider">
+              <a href="#sushi">
+                <!--<span class="glyphicon glyphicon-certificate"></span>-->
+                <span class="sr-only">(current)</span>
+                <br> Sushi</a>
+                <hr class="visible-xs">
+            </li>
+          </ul><!-- #nav-list -->
+       </div><!-- .collapse .navbar-collapse -->
+
+       </div><!-- .container -->
+     </nav><!-- #header-nav -->
     </header>
-  <h1>Our Menu</h1>
+
+    <div id="main-content" class="container">
+       <p class="text-center">Our Menu</p>
+
+    <div class="row"> 
+
+     <div id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+         <div class="category-tile">
+            <span> <h3>Chicken</h3></span>
+            <p class="content"> In laboris dolor minim consequat dolor ut non ut esse incididunt ut culpa consequat eu aute ut amet veniam minim excepteur commodo nostrud sit anim officia amet dolore commodo in duis nostrud velit minim in commodo non nisi tempor dolor veniam sed amet magna non velit non dolor labore aute consequat sunt velit deserunt occaecat elit aute cillum eiusmod exercitation anim et amet anim proident eiusmod quis dolore qui officia ut in exercitation qui sint dolor laborum sed ad excepteur amet anim proident eiusmod quis dolore qui  
+            <br>  <a href="#header-nav" class="visible-xsvisible-xs"><span> Back to top</span></a>
+            </p>
+          </div>
+      </div>
+      <div id="beef" class="col-md-4 col-sm-6 col-xs-12">
+            <div class="category-tile">
+            <span><h3>Beef</h3></span>
+            <p class="content">
+              Cillum dolor ad ex dolore occaecat ea sit duis sed labore adipisicing exercitation anim eu ea enim voluptate cillum amet aute nulla excepteur veniam ex consectetur qui qui minim culpa eiusmod dolor sint non nulla dolor magna mollit quis duis irure in amet commodo in est minim esse deserunt dolore amet eiusmod exercitation elit esse dolore nulla amet ut mollit consequat laboris aliqua eu pariatur ut consectetur ullamco commodo pariatur commodo elit quis in voluptate amet anim proident eiusmod quis dolore qui 
+              <br> <a href="#header-nav" class="visible-xs"> <span>Back to top</span></a>
+                </p>
+            </div>
+       </div>
+      <div id="sushi" class="col-md-4 col-sm-12 col-xs-12">
+            <div class="category-tile">
+            <span><h3>Sushi</h3></span>
+            <p class="content">
+              Consectetur magna est amet nisi id reprehenderit quis laboris aliqua culpa amet reprehenderit velit cupidatat cillum magna veniam id duis dolore velit id excepteur enim do exercitation aliquip dolor qui veniam ad occaecat eiusmod fugiat esse ex exercitation adipisicing ex anim esse non labore proident laboris quis aliquip veniam labore ad cupidatat consequat proident aute velit enim consequat mollit ullamco aliquip amet qui enim tempor incididunt deserunt duis proident amet anim proident eiusmod quis dolore qui 
+              <br> <a href="#header-nav" class="visible-xs"><span>Back to top</span></a>
+            </p>
+            </div>
+       </div>
+      </div><!-- End of home tiles-->
+     </div> <!-- End of main content-->
+   
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
