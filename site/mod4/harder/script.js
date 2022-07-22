@@ -1,13 +1,12 @@
-(function(window){
+(function(){
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-
   for(var i=0; i< names.length; i++){
-   var firstLetter = names.charAt(0);
-   if (names.charAt(0)==="j"|| names.charAt(0)==="J") {
-    byeSpeaker.speak();
-   } 
+    var firstLetter = names.charAt(0);
+  if (names.charAt(0)==="j"|| names.charAt(0)==="J") {
+     byeSpeaker.speak(names[i]);
+  } 
   else {
-    helloSpeaker.speak();
+    helloSpeaker.speak(names[i]);
    }
   }
-})(window);
+})();
