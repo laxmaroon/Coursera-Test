@@ -3,7 +3,7 @@
 
   for(var i=0; i< names.length; i++){
    var firstLetter = names.charAt(0);
-   if (names.charAt(0)==="j"|| name.charAt(0)==="J") {
+   if (names.charAt(0)==="j"|| names.charAt(0)==="J") {
     byeSpeaker.speak();
    } 
   else {
