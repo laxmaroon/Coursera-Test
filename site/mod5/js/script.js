@@ -227,7 +227,6 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
     false);
 }
 
-
 // Using category and menu items data and snippets html
 // build menu items view HTML to be inserted into page
 function buildMenuItemsViewHtml(categoryMenuItems, menuItemsTitleHtml, menuItemHtml) {
